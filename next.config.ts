@@ -1,5 +1,10 @@
 import type {NextConfig} from 'next';
-
+module.exports = {
+  output: 'export',
+  experimental: {
+    serverActions: false, // Disable experimental Server Actions
+  },
+};
 const nextConfig: NextConfig = {
   output: 'export', // Added for static export
   /* config options here */
