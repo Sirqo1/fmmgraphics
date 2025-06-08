@@ -1,13 +1,13 @@
 import React from 'react';
-import './Home.css';
 
 const Home = () => {
   return (
-    <div className="home">
-      <nav className="navbar">
-        <div className="nav-brand">FMM</div>
-        <div className="nav-links">
-          <a href="#features">Особливості</a>
+    <div style={{ backgroundColor: 'white', minHeight: 'calc(100vh - 70px)' }}>
+    </div>
+  );
+};
+
+export default Home;
           <a href="#download" className="download-btn">Завантажити</a>
         </div>
       </nav>
