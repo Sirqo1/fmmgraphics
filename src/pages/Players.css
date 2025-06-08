@@ -1,0 +1,98 @@
+.players-page {
+  padding: 40px 0;
+  min-height: calc(100vh - 70px);
+}
+
+.players-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.positions {
+  margin-bottom: 60px;
+}
+
+.positions h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #00c853;
+}
+
+.positions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.position-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.position-card:hover {
+  transform: translateY(-5px);
+}
+
+.position-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #00c853;
+  text-align: center;
+}
+
+.position-card ul {
+  list-style: none;
+}
+
+.position-card li {
+  background: #f8f9fa;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border-left: 3px solid #00c853;
+}
+
+.development-tips h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #00c853;
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.tip-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tip-card:hover {
+  transform: scale(1.05);
+}
+
+.tip-card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .players-page {
+    padding: 20px 0;
+  }
+  
+  .players-page h1 {
+    font-size: 2rem;
+  }
+}
