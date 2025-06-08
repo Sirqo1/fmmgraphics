@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fmmgraphics/static/css/main.30e9689d.css",
+    "main.js": "/fmmgraphics/static/js/main.b364b09e.js",
+    "index.html": "/fmmgraphics/index.html",
+    "main.30e9689d.css.map": "/fmmgraphics/static/css/main.30e9689d.css.map",
+    "main.b364b09e.js.map": "/fmmgraphics/static/js/main.b364b09e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e9689d.css",
+    "static/js/main.b364b09e.js"
+  ]
+}
